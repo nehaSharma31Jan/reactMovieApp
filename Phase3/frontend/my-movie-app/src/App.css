@@ -1,0 +1,325 @@
+/* Main Container */
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: #ddd;
+}
+
+/* Home */
+.home {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.home-subtitle {
+  font-size: 1.5rem;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+/* Movie List */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.movie-card {
+  width: 31%;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.movie-card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.movie-card-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.movie-card-body {
+  padding: 1rem;
+}
+
+.movie-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.movie-card-subtitle {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.movie-card-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Movie Details */
+.movie-details {
+  margin-top: 3rem;
+}
+
+.movie-details-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.movie-details-subtitle {
+font-size: 1.5rem;
+color: #777;
+margin-bottom: 2rem;
+}
+
+.movie-details-img {
+width: 100%;
+height: 500px;
+object-fit: cover;
+margin-bottom: 2rem;
+}
+
+.movie-details-info {
+display: flex;
+justify-content: space-between;
+margin-bottom: 2rem;
+}
+
+.movie-details-info-item {
+width: 30%;
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.movie-details-info-title {
+font-size: 1.2rem;
+font-weight: bold;
+color: #333;
+margin-bottom: 1rem;
+}
+
+.movie-details-info-text {
+font-size: 1.2rem;
+color: #777;
+margin-bottom: 1rem;
+}
+
+/* Login */
+.login {
+text-align: center;
+margin-top: 3rem;
+}
+
+.login-form {
+width: 50%;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 2rem;
+}
+
+.form-label {
+font-size: 1.2rem;
+font-weight: bold;
+color: #333;
+margin-bottom: 1rem;
+}
+
+.form-input {
+width: 100%;
+height: 40px;
+padding: 0.5rem;
+font-size: 1.2rem;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+.form-submit {
+width: 100%;
+height: 40px;
+background-color: #333;
+color: #fff;
+font-size: 1.2rem;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.form-submit:hover {
+background-color: #444;
+}
+
+/* Booking */
+.booking {
+margin-top: 3rem;
+}
+
+.booking-form {
+width: 50%;
+margin: 0 auto;
+}
+
+.booking-form-group {
+margin-bottom: 2rem;
+}
+
+.booking-form-label {
+font-size: 1.2rem;
+font-weight: bold;
+color: #333;
+margin-bottom: 1rem;
+}
+
+.booking-form-input {
+width: 100%;
+height: 40px;
+padding: 0.5rem;
+font-size: 1.2rem;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+.booking-form-submit {
+width: 100%;
+height: 40px;
+background-color: #333;
+color: #fff;
+font-size: 1.2rem;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.booking-form-submit:hover {
+  background-color: #444;
+  }
+  
+  .booking-form-select {
+  width: 100%;
+  height: 40px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  }
+  
+  .booking-form-textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: none;
+  min-height: 100px;
+  }
+  
+  /* Ticket */
+  .ticket {
+  margin-top: 3rem;
+  text-align: center;
+  }
+  
+  .ticket-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  }
+  
+  .ticket-subtitle {
+  font-size: 1.5rem;
+  color: #777;
+  margin-bottom: 2rem;
+  }
+  
+  .ticket-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  }
+  
+  .ticket-info-item {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 2rem;
+  }
+  
+  .ticket-info-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+  }
+  
+  .ticket-info-text {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 1rem;
+  }
+  
+  /* Responsive */
+  @media only screen and (max-width: 768px) {
+  .movie-details-info {
+  flex-direction: column;
+  }
+  
+  .movie-details-info-item {
+  width: 100%;
+  }
+  
+  .login-form,
+  .booking-form,
+  .ticket-info {
+  width: 90%;
+  }
+  }

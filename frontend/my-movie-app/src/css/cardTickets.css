@@ -1,0 +1,15 @@
+.card{
+    background-color: grey;
+    color: black
+    
+}
+.ContainerTickets{
+    width: 1000px;
+    /* height: 300px; */
+    margin: 0px auto;
+    padding: 3px ; 
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 30px;
+ 
+}

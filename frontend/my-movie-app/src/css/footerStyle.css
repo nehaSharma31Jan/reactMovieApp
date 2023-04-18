@@ -1,0 +1,14 @@
+
+
+
+.footer {
+
+    position:fixed; 
+
+    width: 100%;
+    bottom:0px;
+    background-color:hsl(216, 25%, 95.1%);
+  }
+.text-centerOne{
+    background-color: #e3f2fd;
+}
